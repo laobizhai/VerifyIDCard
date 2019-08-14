@@ -1,0 +1,6 @@
+framework module Pods_VerifyIDCard_Tests {
+  umbrella header "Pods-VerifyIDCard_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

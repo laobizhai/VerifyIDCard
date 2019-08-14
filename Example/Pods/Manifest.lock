@@ -1,0 +1,16 @@
+PODS:
+  - VerifyIDCard (0.1.0)
+
+DEPENDENCIES:
+  - VerifyIDCard (from `../`)
+
+EXTERNAL SOURCES:
+  VerifyIDCard:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  VerifyIDCard: 719bd2885937ec13bd73061916982b5bcf5064d1
+
+PODFILE CHECKSUM: 7cb27965ad239c3202d7be721a164df0c8d502d5
+
+COCOAPODS: 1.7.5

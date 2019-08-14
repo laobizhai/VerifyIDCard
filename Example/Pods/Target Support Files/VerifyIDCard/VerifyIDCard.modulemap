@@ -1,0 +1,6 @@
+framework module VerifyIDCard {
+  umbrella header "VerifyIDCard-umbrella.h"
+
+  export *
+  module * { export * }
+}

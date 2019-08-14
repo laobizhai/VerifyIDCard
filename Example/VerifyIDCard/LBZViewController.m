@@ -7,7 +7,7 @@
 //
 
 #import "LBZViewController.h"
-
+#import <LBZVerifyIDCard.h>
 @interface LBZViewController ()
 
 @end
@@ -17,7 +17,12 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    BOOL isYes = [[LBZVerifyIDCard alloc] cly_verifyIDCardString:@"362543196007153036"];
+    if (isYes == YES) {
+        NSLog(@"身份证号为真");
+    } else {
+        NSLog(@"身份证号为假");
+    }
 }
 
 - (void)didReceiveMemoryWarning
