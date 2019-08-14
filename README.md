@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # VerifyIDCard
 
 [![CI Status](https://img.shields.io/travis/laobizhai/VerifyIDCard.svg?style=flat)](https://travis-ci.org/laobizhai/VerifyIDCard)
@@ -27,3 +28,6 @@ laobizhai, 792088903@qq.com
 ## License
 
 VerifyIDCard is available under the MIT license. See the LICENSE file for more info.
+=======
+# VerifyIDCard
+>>>>>>> c28adc747c454c00d63e55e85baa5e90158b3892
